@@ -1,0 +1,62 @@
+body {
+    background-color: #657fa7;
+    background-image: url(https://images.unsplash.com/photo-1566475922470-2740a2d7e17b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGNhbmFkYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60);
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   /* height: 100vh;*/
+    }
+
+form {
+    background-color: #fff;  
+    opacity: 0.8;
+    width: 700px;
+    overflow: hidden;
+    padding: 10px;
+    display: flex;
+    flex-wrap:wrap;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 12px;
+    border-radius: 35px;
+    
+   
+    }
+
+label {
+    font-size: 12px;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+    }
+  
+.question {
+    padding: 30px;
+}
+
+.btn {
+    text-align: center;
+    background-color: rgb(253,1,38); 
+    color: #fff;
+    width: 100%;
+    border: 1px solid black;
+    padding: 15px;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+   }
+#show {
+    margin: auto;
+    margin-top: 10px;
+    }
+@media all and (max-width: 800px) {
+  form {
+    width: 100%;
+    padding: 10px;
+    font-size: 10px;
+  }
+  label {
+    font-size: 10px;
+  }
+}
